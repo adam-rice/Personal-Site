@@ -1,0 +1,335 @@
+body {
+  font-family: 'Karla', sans-serif;
+}
+
+header {
+  background-color: #333333;
+  color: #FFFFFF;
+  height: 120px;
+  padding: 0 25px;
+  transition: all 0.4s ease;
+  width: 100%;
+  position: fixed;
+  z-index: 9999;
+}
+
+header.sticky {
+  position: fixed;
+  height: 80px;
+}
+
+#logo {
+  float: left;
+  font-size: 250%;
+  margin-top: 45px;
+  margin-left: 110px;
+  font-weight: 900;
+  letter-spacing: 3px;
+  transition: all 0.4s ease;
+}
+
+#logo.sticky {
+  font-size: 200%;
+  letter-spacing: 2px;
+  margin-top: 20px;
+}
+
+#last-name {
+  color: #FFCC66;
+}
+
+#logo a {
+  text-decoration: none;
+  color: #FFFFFF;
+}
+
+nav ul {
+  float: right;
+  transition: all 0.4s ease;
+}
+nav ul li {
+  display: inline-block;
+  font-size: 22px;
+  padding: 5px;
+  margin-top: 55px;
+  margin-right: 75px;
+  transition: all 0.4s ease;
+}
+nav ul li.sticky {
+  font-size: 18px;
+  font-weight: 700;
+  padding: 0px;
+  margin-top: 32px;
+}
+nav ul li a {
+  color: #FFFFFF;
+  text-decoration: none;
+}
+nav ul li a:hover {
+  color: #FFCC66;
+  cursor: pointer;
+  transition-duration: 0.5s;
+}
+
+#pitch {
+  text-align: center;
+  background-color: #FFCC66;
+  color: #FFFFFF;
+}
+
+#pitch-title {
+  padding-top: 245px;
+  font-weight: 900;
+  font-size: 380%;
+  text-align: center;
+}
+
+#pitch-hr {
+  width: 250px;
+  height: 6px;
+  background-color: #FFFFFF;
+  border: none;
+}
+
+#pitch p {
+  color: #FFFFFF;
+  font-weight: bold;
+  font-size: 180%;
+  padding: 50px;
+}
+
+a .fa {
+  color: #FFFFFF;
+}
+
+.online-links li {
+  display: inline-block;
+  margin: 10px 25px 135px 25px;
+}
+
+.online-links a .fa {
+  transition-duration: 0.8s;
+}
+
+.online-links a .fa:hover {
+  cursor: pointer;
+  color: #333333;
+}
+
+.offset:before {
+  display: block;
+  content: " ";
+  height: 80px;
+  margin-top: -80px;
+  visibility: hidden;
+}
+
+#portfolio {
+  height: 780px;
+}
+
+.section-title {
+  font-weight: 800;
+  font-size: 275%;
+  text-align: center;
+  margin-top: 80px;
+}
+
+.break {
+  border: 0;
+  height: 3px;
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+  margin-bottom: 25px;
+}
+
+.portfolio-item {
+  width: 31%;
+  display: inline-block;
+  text-align: center;
+  vertical-align: top;
+  margin: 0px 10px;
+}
+
+.portfolio-image {
+  border-radius: 4px;
+  border: 3px solid #333333;
+  margin: 30px 0px;
+  transition-duration: 0.4s;
+}
+
+.portfolio-image:hover {
+  opacity: 0.5;
+  cursor: pointer;
+}
+
+.description {
+  margin-top: 10px;
+  padding: 8px;
+}
+
+.description a {
+  text-decoration: none;
+  color: #FFCC66;
+  font-weight: 800;
+}
+#about-me {
+  background-color: #FFCC66;
+  color: #333333;
+  height: 630px;
+}
+
+#about-me-text {
+  margin: 50px auto 0 auto;
+  height: 320px;
+  width: 600px;
+  text-align: center;
+}
+
+#about-me-text p {
+  font-size: 150%;
+  margin-bottom: 25px;
+}
+
+.turing-link {
+  color: #333333;
+}
+
+#resume i {
+  margin-left: 20px;
+  color: #333333;
+  transition-duration: 0.4s;
+}
+
+#resume i:hover {
+  opacity: .6;
+}
+
+#resume-line {
+  margin-top: 40px;
+  font-weight: 600;
+}
+
+#contact-me {
+  height: 702px;
+}
+
+form {
+  text-align: center;
+  font-size: 1.4rem;
+  color: #333333;
+}
+
+label {
+  margin-right: 12px;
+}
+
+form input {
+  outline: none;
+  margin: 20px 0 10px 0;
+  border: none;
+  border-bottom: 2px solid #333333;
+  font-size: 1.4rem;
+  text-overflow: ellipsis;
+}
+
+textarea {
+  resize: none;
+  outline: none;
+  margin: 30px 0px;
+  font-size: 1rem;
+  padding: 6px;
+}
+
+button {
+  outline: none;
+  border: none;
+  background-color: #FFCC66;
+  color: #333333;
+  width: 100px;
+  height: 40px;
+  border-radius: 4px;
+  font-size: 1.1rem;
+}
+
+button:hover {
+  opacity: .5;
+  cursor: pointer;
+  transition-duration: 0.4s;
+}
+button:active {
+  transform: translateY(8px);
+}
+
+/*summary {
+  text-align: center;
+}
+summary article {
+  font-size: 200%;
+  display: inline-block;
+  padding: 60px;
+}
+article h3 {
+  margin-bottom: 25px;
+}
+article i {
+  transition-duration: 0.6s;
+}
+article a .fa {
+  color: black;
+}
+article i:hover {
+  cursor: pointer;
+  color: #FFCC66;
+}*/
+footer {
+  background-color: #333333;
+  height: 100px;
+  color: #FFFFFF;
+  text-align: center;
+}
+
+#footer-links li {
+  padding: 12px;
+  display: inline-block;
+}
+
+#footer-links a .fa {
+  transition-duration: 0.8s;
+}
+
+#footer-links a .fa:hover {
+  cursor: pointer;
+  color: #FFCC66;
+}
+
+#rights {
+  font-size: small;
+}
+
+/*@media screen and (max-width: 810px) {
+  header .title-bar {
+    height: 100px;
+  }
+  header h1{
+    float: left;
+    font-size: 110%;
+    margin: 40px;
+    margin-left: 10px;
+    font-weight: bolder;
+    letter-spacing: 2px;
+  }
+  nav ul li {
+    font-size: 50%;
+    padding: 3px;
+    margin-top: 45px;
+    margin-right: 35px;
+  }
+  #pitch p {
+    font-size: 100%;
+    padding: 25px;
+  }
+  #suit-pic {
+    height: 90px;
+    width: 70px;
+  }
+}*/

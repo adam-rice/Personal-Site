@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=true;">
+    <title>Adam Rice</title>
+    <link rel="stylesheet" href="CSS/reset.css">
+    <link href="https://fonts.googleapis.com/css?family=Karla" rel="stylesheet">
+    <link rel="stylesheet" href="CSS/styles.css">
+    <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css" type="text/css">
+  </head>
+
+  <body id="body">
+    <header>
+        <h1 id="logo"><a href="#body">Adam <span id="last-name">Rice</span></a></h1>
+        <nav>
+          <ul>
+            <li class="nav"><a href="#portfolio">Portfolio</a></li>
+            <li class="nav"><a href="#about-me-title">About</a></li>
+            <li class="nav"><a href="#contact-me">Contact</a></li>
+          </ul>
+        </nav>
+    </header>
+
+    <main>
+      <section id="pitch">
+        <h1 id="pitch-title">HI, I'M ADAM</h1>
+        <hr id="pitch-hr">
+        <p>A Hoosier writing markup and making the web useful.</p>
+        <ul class="online-links">
+          <li><a href="https://github.com/adam-rice" target="_blank"><i class="fa fa-github fa-4x" aria-hidden="true"></i></a></li>
+          <li><a href="https://www.linkedin.com/in/adam-rice-a9b62829" target="_blank"><i class="fa fa-linkedin-square fa-4x" aria-hidden="true"></i></a></li>
+        </ul>
+      </section>
+
+      <section id="portfolio" class="offset">
+        <h1 class="section-title">Portfolio</h1>
+        <hr class="break">
+        <article class="portfolio-item">
+          <a href="https://adam-rice.github.io/Lingo/" target="_blank"><img src = "images/lingo.png" class="portfolio-image" alt = "View More" height="300px" width="300px" /></a>
+          <p class="description">
+            Lingo in Javascript and jQuery. This game was built by Alex Pilewski and Adam Rice as a pair project in Module 1 at the Turing School.<br><a href="https://github.com/adam-rice/Lingo" target="_blank">GitHub</a>
+          </p>
+        </article>
+
+        <article class="portfolio-item">
+          <a href="https://adam-rice.github.io/IdeaBox/" target="_blank"><img src = "images/idea.png" class="portfolio-image" alt = "View More" height="300px" width="300px" /></a>
+          <p class="description">
+            An application to store your ideas using Javascript and jQuery, as well as JSON and localStorage to persist data between sessions.<br><a href="https://github.com/adam-rice/IdeaBox" target="_blank">GitHub</a>
+          </p>
+        </article>
+
+        <article class="portfolio-item">
+          <a href="https://adam-rice.github.io/Color-Changer/" target="_blank"><img src = "images/buttons.png" class="portfolio-image" alt = "View More" height="300px" width="300px" /></a>
+          <p class="description">
+            Using JavaScript and jQuery this application allows you to click through random background colors. The reset button will set your color back to white.<br><a href="https://github.com/adam-rice/Color-Changer" target="_blank">GitHub</a>
+          </p>
+        </article>
+      </section>
+
+      <section id="about-me">
+        <h1 id="about-me-title" class="section-title offset">About Me</h1>
+        <hr class="break">
+        <main id="about-me-text">
+          <p>I am a hard-working, open minded and team oriented web developer from Indiana.</p>
+          <p> In my spare time I enjoy hiking, playing music and visiting as many beaches as possible.</p>
+          <p>My passion is to help companies, friends and even family create and build user-friendly software.</p>
+          <p>My developer training started at the <a href="https://www.turing.io/" class="turing-link" target="_blank">Turing School of Software &#38; Design</a>. Previously, I have held roles in marketing, sales and customer service.</p>
+          <p id="resume-line">
+            View My R&#233sum&#233<a href="riceResume.docx" id="resume"><i class="fa fa-file-text fa-1x" aria-hidden="true"></i></a>
+          </p>
+        </main>
+      </section>
+
+      <section id="contact-me" class="offset">
+        <h1 class="section-title">Contact Me</h1>
+        <hr class="break">
+        <form class="form" action="index.html" method="post">
+          <label for="name">Your Name</label>
+          <input id="name" type="text" name="name" value="" size="30"><br>
+          <label for="email">Your Email</label>
+          <input id="email" type="text" name="name" value="" size="30"><br>
+          <textarea rows="8" cols="60"></textarea><br>
+          <button type="button" name="button">Submit</button>
+        </form>
+      </section>
+
+      <footer>
+        <ul id="footer-links">
+          <li> <a href="https://www.linkedin.com/in/adam-rice-a9b62829" target="_blank"><i class="fa fa-linkedin-square fa-3x" aria-hidden="true"></i></a></li>
+          <li><a href="https://github.com/adam-rice" target="_blank"><i class="fa fa-github fa-3x" aria-hidden="true"></i></a></li>
+          <li> <a href="https://twitter.com/easyLamp" target="_blank"><i class="fa fa-twitter-square fa-3x" aria-hidden="true"></i></a></li>
+        </ul>
+          <p id="rights">
+            &copy 2016 Adam Rice. All rights reservered.
+          </p>
+      </footer>
+  </main>
+
+    <script  src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script type="text/javascript" src="script.js"></script>
+
+  </body>
+</html>
