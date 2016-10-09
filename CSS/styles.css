@@ -18,6 +18,10 @@ header.sticky {
   height: 80px;
 }
 
+nav ul li {
+  transition: all 0.4s ease;
+}
+
 #logo {
   float: left;
   font-size: 250%;
@@ -25,7 +29,6 @@ header.sticky {
   margin-left: 110px;
   font-weight: 900;
   letter-spacing: 3px;
-  transition: all 0.4s ease;
 }
 
 #logo.sticky {
@@ -43,32 +46,30 @@ header.sticky {
   color: #FFFFFF;
 }
 
-nav ul {
+.float-right {
   float: right;
-  transition: all 0.4s ease;
-}
-nav ul li {
   display: inline-block;
   font-size: 22px;
   padding: 5px;
   margin-top: 55px;
   margin-right: 75px;
-  transition: all 0.4s ease;
 }
-nav ul li.sticky {
+
+.float-right.sticky {
   font-size: 18px;
   font-weight: 700;
   padding: 0px;
   margin-top: 32px;
 }
+
 nav ul li a {
   color: #FFFFFF;
   text-decoration: none;
 }
+
 nav ul li a:hover {
   color: #FFCC66;
   cursor: pointer;
-  transition-duration: 0.5s;
 }
 
 #pitch {
