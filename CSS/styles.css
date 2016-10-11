@@ -174,23 +174,38 @@ a .fa {
 #about-me {
   background-color: #FFCC66;
   color: #333333;
-  height: 630px;
+  height: 570px;
+}
+
+#about-me-left {
+  width: 375px;
+  float: left;
+}
+
+#about-me-right {
+  width: 375px;
+  float: right;
 }
 
 #about-me-text {
   margin: 50px auto 0 auto;
-  height: 320px;
-  width: 600px;
-  text-align: center;
+  height: 220px;
+  width: 800px;
 }
 
 #about-me-text p {
-  font-size: 150%;
+  font-size: 135%;
+  letter-spacing: 0.8px;
   margin-bottom: 25px;
 }
 
 .turing-link {
   color: #333333;
+}
+
+#resume-line {
+  text-align: center;
+  font-size: 160%;
 }
 
 #resume i {
