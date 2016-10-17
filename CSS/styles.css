@@ -124,7 +124,7 @@ a .fa {
 }
 
 #portfolio {
-  height: 780px;
+  height: 740px;
 }
 
 .section-title {
@@ -151,8 +151,9 @@ a .fa {
 
 .portfolio-image {
   border-radius: 4px;
-  border: 3px solid #333333;
-  margin: 30px 0px;
+  border: solid #D3D3D3;
+  border-width: 1px 6px 4px 1px;
+  margin: 30px 0 20px 0;
   transition-duration: 0.4s;
 }
 
@@ -161,16 +162,15 @@ a .fa {
   cursor: pointer;
 }
 
-.description {
-  margin-top: 10px;
-  padding: 8px;
+.git-link {
+  color: #FFCC66;
+  display: block;
+  font-weight: 900;
+  font-size: 1.1rem;
+  text-decoration: none;
+  margin-top: 6px;
 }
 
-.description a {
-  text-decoration: none;
-  color: #FFCC66;
-  font-weight: 800;
-}
 #about-me {
   background-color: #FFCC66;
   color: #333333;
