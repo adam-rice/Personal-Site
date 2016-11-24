@@ -203,8 +203,10 @@ a .fa {
 }
 
 #resume-line {
-  text-align: center;
+  font-weight: 600;
   font-size: 160%;
+  margin-top: 40px;
+  text-align: center;
 }
 
 #resume i {
@@ -215,11 +217,6 @@ a .fa {
 
 #resume i:hover {
   opacity: .6;
-}
-
-#resume-line {
-  margin-top: 40px;
-  font-weight: 600;
 }
 
 #contact-me {
@@ -300,30 +297,115 @@ footer {
   font-size: small;
 }
 
-/*@media screen and (max-width: 810px) {
-  header .title-bar {
-    height: 100px;
+@media screen and (max-width: 1000px) {
+  header {
+    display: none;
   }
-  header h1{
-    float: left;
-    font-size: 110%;
-    margin: 40px;
-    margin-left: 10px;
-    font-weight: bolder;
-    letter-spacing: 2px;
+
+  #pitch-title {
+    padding-top: 50px;
+    font-size: 280%;
   }
-  nav ul li {
-    font-size: 50%;
-    padding: 3px;
-    margin-top: 45px;
-    margin-right: 35px;
+
+  #pitch-hr {
+    width: 150px;
   }
+
   #pitch p {
+    font-size: 140%;
+    margin: auto;
+    width: 290px;
+    padding: 30px 0px;
+  }
+
+  .section-title {
+    font-size: 175%;
+    margin-top: 60px;
+  }
+
+  .online-links li {
+    margin: 10px 25px 60px 25px;
+  }
+
+  #portfolio {
+    height: 1000px;
+  }
+
+  .portfolio-item {
+    width: 100%;
+    display: block;
+    margin: 10px 0px;
+  }
+
+  .portfolio-image {
+    margin: 5px 0px 5px 0px;
+    height: 160px;
+    width: 160px;
+  }
+
+  .git-link, .description {
+    font-size: 0.8rem;
+    margin: 8px 0px 16px 0px;
+  }
+
+  #about-me {
+    height: 470px;
+  }
+
+  #about-me-left {
+    width: 275px;
+    float: none;
+    margin: 0px auto;
+  }
+
+  #about-me-right {
+    display: none;
+  }
+
+  #about-me-text {
+    margin: 50px auto 0 auto;
+    height: 180px;
+    width: 100%;
+  }
+
+  #about-me-text p {
     font-size: 100%;
-    padding: 25px;
+    margin-bottom: 25px;
   }
-  #suit-pic {
-    height: 90px;
-    width: 70px;
+
+  #resume-line {
+    font-size: 120%;
+    margin-top: 20px;
   }
-}*/
+
+  #contact-me {
+    height: 620px;
+  }
+
+  form {
+    font-size: 0.9rem;
+  }
+
+  label {
+    margin-right: 6px;
+  }
+
+  #name, #email {
+    font-size: 1rem;
+    text-indent: 8px;
+    width: 200px;
+  }
+
+  textarea {
+    margin: 20px 0px;
+    width: 300px;
+    border: 1px solid #333333;
+  }
+
+  #submit-form {
+    width: 80px;
+    height: 35px;
+    font-size: 1rem;
+  }
+
+}
