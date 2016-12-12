@@ -209,13 +209,18 @@ a .fa {
   text-align: center;
 }
 
-#resume i {
-  margin-left: 20px;
+#resume {
+  text-decoration: none;
   color: #333333;
   transition-duration: 0.4s;
 }
 
-#resume i:hover {
+#resume i {
+  margin-left: 20px;
+  color: #333333;
+}
+
+#resume:hover {
   opacity: .6;
 }
 
